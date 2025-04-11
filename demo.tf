@@ -22,8 +22,4 @@ resource "aws_s3_bucket" "my_bucket" {
 }
 
 
-  tags = {
-    Environment = "dev"
-    Team        = "DevOps"
-  }
-}
+
