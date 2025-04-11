@@ -14,6 +14,7 @@ provider "aws" {
 resource "aws_ecr_repository" "my_ecr_repo" {
   name                 = "ecr" # Change this to your repo name
   image_tag_mutability = "MUTABLE"     # or "IMMUTABLE"
+}
 
 resource "aws_s3_bucket" "my_bucket" {
   bucket = "manojgithubactions3" # Replace with a globally unique name
